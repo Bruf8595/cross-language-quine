@@ -1,0 +1,1 @@
+console.log("s = '\\'s = {0!r}\\\\nimport json\\\\nprint(\"console.log(\" + json.dumps(s.format(repr(s))) + \");\")\\''\nimport json\nprint(\"console.log(\" + json.dumps(s.format(repr(s))) + \");\")");

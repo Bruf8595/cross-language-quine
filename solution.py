@@ -1,6 +1,3 @@
-py = """py = {0!r}
-js = "const py = {0!r};\\nconsole.log(py);"
-print(js.format(py))
-"""
-js = "const py = {0!r};\nconsole.log(py);"
-print(js.format(py))
+s = 's = {0!r}\nimport json\nprint("console.log(" + json.dumps(s.format(repr(s))) + ");")'
+import json
+print("console.log(" + json.dumps(s.format(repr(s))) + ");")
