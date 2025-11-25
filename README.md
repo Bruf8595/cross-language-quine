@@ -2,9 +2,6 @@
 
 ## ▶️ Usage Instructions
 ```cmd
-cd C:\task4
-```
-```cmd
 python solution.py > solution.js
 ```
 ```cmd
